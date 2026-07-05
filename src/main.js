@@ -393,9 +393,9 @@ async function initCharts() {
     if (timeline._chart) timeline._chart.destroy();
     const events = [
       { label: '2018 - CA Practice', y: 0 },
-      { label: '2021 - Head Finance', y: 1 },
+      { label: '2021 - Head Finance', y: 0 },
       { label: '2022 - KPMG', y: 0 },
-      { label: '2024 - PwC', y: 1 },
+      { label: '2024 - PwC', y: 0 },
     ];
     timeline._chart = new Chart(timeline, {
       type: 'scatter',
@@ -436,7 +436,7 @@ async function initCharts() {
             },
             grid: { color: 'rgba(30,45,74,0.3)' }
           },
-          y: { display: false, min: -0.5, max: 1.5 }
+          y: { display: false, min: -0.8, max: 0.8 }
         }
       }
     });
