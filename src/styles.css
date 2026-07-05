@@ -756,6 +756,39 @@ body {
 
 /* ─── Mobile ─── */
 @media (max-width: 768px) {
+  body {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .header {
+    padding: 0 16px;
+  }
+
+  .header-title {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 60%;
+  }
+
+  .exp-meta {
+    text-align: left;
+    width: 100%;
+  }
+
+  .exp-card-header {
+    flex-direction: column;
+  }
+
+  .exp-role {
+    font-size: 17px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
   .sidebar {
     transform: translateX(-100%);
   }
@@ -788,6 +821,10 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .chart-grid .chart-wrapper {
+    height: 220px;
+  }
+
   .radar-section {
     grid-template-columns: 1fr;
   }
@@ -818,6 +855,15 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .certs-list {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-value {
+    font-size: 12px;
+    word-break: break-all;
+  }
+
   .overlay {
     display: none;
     position: fixed;
@@ -831,5 +877,71 @@ body {
 
   .overlay.active {
     display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 16px 12px;
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+
+  .hero .tagline {
+    font-size: 13px;
+  }
+
+  .header-title {
+    font-size: 11px;
+    max-width: 50%;
+  }
+
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+
+  .metric-card {
+    padding: 10px 6px;
+  }
+
+  .metric-value {
+    font-size: 18px;
+  }
+
+  .metric-label {
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+
+  .exp-role {
+    font-size: 15px;
+  }
+
+  .exp-card {
+    padding: 20px 16px;
+  }
+
+  .chart-container {
+    padding: 16px;
+  }
+
+  .chart-grid .chart-wrapper {
+    height: 200px;
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .contact-card {
+    padding: 16px 12px;
   }
 }

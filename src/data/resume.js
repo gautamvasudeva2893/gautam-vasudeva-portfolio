@@ -146,13 +146,13 @@ export const resumeData = {
     {
       title: "Enterprise MIS Dashboard Suite",
       description: "Designed enterprise-wide Power BI dashboards tracking strategic, operational, and tactical KPIs. Enabled multi-level performance visibility from CEO through functional heads across production, distribution, and finance.",
-      tech: ["Power BI", "KPI Design", "SQL", "Dashboarding"],
+      tech: ["Power BI", "KPI Design", "Dashboarding"],
       impact: "Single source of truth for enterprise-wide performance tracking"
     },
     {
       title: "Process Re-engineering (30-40% Cycle Time Reduction)",
       description: "Led comprehensive process re-engineering initiatives across P2P, O2C, and R2R cycles. Implemented best-practice process maps and automation triggers delivering significant cycle time improvements.",
-      tech: ["Process Mining", "Lean Six Sigma", "RPA", "SOP Design"],
+      tech: ["Process Mining", "RPA", "SOP Design"],
       impact: "30-40% cycle time reduction | Improved compliance controls"
     }
   ],

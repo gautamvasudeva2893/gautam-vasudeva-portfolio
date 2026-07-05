@@ -330,7 +330,7 @@ async function initCharts() {
   Chart.register(
     ChartJS.TimeScale, ChartJS.LinearScale, ChartJS.CategoryScale,
     ChartJS.BarController, ChartJS.ScatterController, ChartJS.RadarController, ChartJS.DoughnutController,
-    ChartJS.BarElement, ChartJS.PointElement, ChartJS.LineElement, ChartJS.RadialLinearScale,
+    ChartJS.BarElement, ChartJS.PointElement, ChartJS.LineElement, ChartJS.ArcElement, ChartJS.RadialLinearScale,
     ChartJS.Filler, ChartJS.Tooltip, ChartJS.Legend
   );
 
